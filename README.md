@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in VHDL: an integer overflow in a counter.  The provided VHDL code implements a simple counter.  However, it lacks error handling for when the counter reaches its maximum value.  The `bug.vhdl` file contains the buggy code.  The `bugSolution.vhdl` file demonstrates a solution that handles this overflow condition.
